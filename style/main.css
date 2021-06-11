@@ -1,0 +1,66 @@
+body  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 800px;
+    border: 2px solid black;
+	margin: 0 auto; 
+	padding: 0; 
+}
+*{
+    margin: 0;
+}
+/* Header */
+header { 
+    height: 80px;
+    padding: 15px;
+} 
+
+/* navbar */
+nav {
+	float: left;
+    width: 100px;
+}
+nav div{
+    border-top: none;
+    border-bottom:none;
+    height: 300px;
+}
+
+div{
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+ 
+/* Section */
+section {
+	width: 500px;
+}
+
+body > main > aside > p{
+    margin: 0;
+}
+
+p {
+    margin: 0px;
+}
+
+/* Right Aside*/
+.right {
+	float: right; 
+	width: 200px;
+    height: 290px;
+    border-left: 2px solid black;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+    margin-top: -2.5%;
+}
+
+/* Footer */
+footer {
+    font-size: 80%;
+	clear: both;
+    height: 30px;
+    margin-top: 2px;
+	border-top: 2px solid black;
+} 
